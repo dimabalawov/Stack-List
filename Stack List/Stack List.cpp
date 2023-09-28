@@ -90,7 +90,6 @@ void Stack<T>::Print()
 template <class T>
 void Stack<T>::DelAll()
 {
-    // Пока остаются элементы, удаляем по одному с головы
     while (Head != NULL)
         Extract();
 }
